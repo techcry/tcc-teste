@@ -25,43 +25,6 @@
         'position': 'inherit'
       });
   }}); 
-  $(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 20) {
-    $('#menubtn')
-      .css({
-        
-        'position': 'inherit',
-        'display': 'flex',
-      });
-  } else {
-    $('#menubtn')
-      .css({
-        'display': 'none',
-        'position': 'fixed'
-      });
-    $( "#menubtn" ).prop( "checked", false );
-  }});
-  $(document).ready(function() {
-        $('input[type="checkbox"]').click(function(){
-            if($(this).prop("checked") == true){
-                $('#list-menu')
-                    .css({
-                        'padding-right': '1%',
-                        'position': 'inherit',
-                        'display': 'flex',
-                    });
-            }
-            else if($(this).prop("checked") == false){
-                $('#list-menu')
-                    .css({
-        
-                        'position': 'fixed',
-                        'display': 'none',
-      });
-            }
-        });
-    });
     
     </script>
 
@@ -72,8 +35,7 @@
             <li><a href="galeria.html">GALERIA</a></li>
             <li><a href="redescontato.html">REDES E CONTATO</a></li> 
             <li><a href="inicio.html">INICIO</a></li>
-            <li><a href="registro.php" class="botao">REGISTRAR</a></li>
-            <li><a href="login.php" class="botao">LOGIN</a></li>
+            <li><a href="login.php" class="botao">SAIR</a></li>
       
         </ul>  
     </nav>
@@ -81,23 +43,17 @@
         <div id="icon">
             <img align="left"src="../img/icon.png" alt="">
         </div>
-
-            
-        <div id="texto2">
-          
-            
-
-        </div>
         <div class="container">
-            <div class="image-container">
-        
-        </div>
     </div>
         <div id="texto">
         <p>Aberta desde 21 de outubro de 2017 a AnLui, localizada na Avenida Alexandrina Malisano de Lima, 895 no Jardim Herculano, criada e administrada pelo empresário Antonio Luiz da Silva Coutinho começou pequena, e vem conquistando cada vez mais novos clientes e mais confiança, oferecendo serviços de usinagem, tornearia e solda, Antonio se dedica ao máximo em cada um de seus trabalhos, para sempre garantir a qualidade e durabilidade de seus produtos.
                 Fazendo desde as peças mais pequenas até as mais trabalhadas e em mais quantidade Antonio se orgulha do seu trabalho, sempre se esforçando e fornecendo o melhor para os que optam pelo seu trabalho.
             </p>
         </div>
+        <div class="local">
+            <h1>Localização</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.4811334210576!2d-46.75821808553954!3d-23.69450657240656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce521ac60622ef%3A0x326a59507a6f6475!2sAv.%20Alexandrina%20Malisano%20de%20Lima%2C%20895%20-%20Jardim%20Herculano%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004920-000!5e0!3m2!1spt-BR!2sbr!4v1669926670670!5m2!1spt-BR!2sbr" width="1200" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+          </div>
        
 </body>
         

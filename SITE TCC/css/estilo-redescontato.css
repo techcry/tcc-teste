@@ -53,7 +53,7 @@ body{
     display: none;
 }
 .container {
-    margin-top: 33rem;
+    margin-top: 5%;
     padding: 25px 10%;
     text-align: center;
 }
@@ -62,8 +62,7 @@ body{
     font-size: 30px;
     padding-bottom: 25px;
     color: #fff;
-}
-    
+}   
 .container .image-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -105,37 +104,6 @@ body{
     font-size: 20px;
     color: #000000;
 }
-.local iframe {
-    width: 80%;
-    height: 50%;
-    position: absolute;
-    margin-top: 10rem;
-    margin-left: 10%;
-    border-radius: 20px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-
-}
-.local h1{
-    position: absolute;
-    margin-top: 7rem;
-    margin-left: 8%;
-    font-size: 1.7rem;
-    color: white;
-    background-color:  rgba(10, 10, 10, 0.178);
-    padding-left: 2%;
-    padding-right: 73%;
-    
-}
-.h1contato{
-    margin-top: 34rem;
-    position: absolute;
-    margin-left: 8%;
-    font-size: 1.7rem;
-    color: white;
-    background-color:  rgba(10, 10, 10, 0.178);
-    padding-left: 2%;
-    padding-right: 75%;
-}  
 .footer{ 
     color: white;
     background-color: #14131381;
@@ -143,17 +111,16 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 10%;
 }
 .footerelements{
     display: flex;
     flex-direction: row;
-    width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
     box-shadow: 0 50px 20px rgba(0, 0, 0, 0.1);
 }
 .footerctt{
-    width: 12%;
     font-family: inter;
     padding-left: 17%;
 }
