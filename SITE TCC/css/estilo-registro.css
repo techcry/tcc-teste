@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+    font-family: 'Inter'
+    }
+html{   
+    text-decoration: none;
+    background-image: linear-gradient(89.5deg, firebrick 0.96%, #221513 88.53%);
+    
+    
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#menu {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: inter;
+    height: 8vh;
+    position: fixed;
+    width: 90%;
+}
+#list-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+   
+    
+}
+#list-menu li{
+    letter-spacing: 0.5px;
+    margin-left: 32px;
+}   
+#list-menu li a{
+    text-decoration: none;
+    color: white; 
+}
+
+.botao {
+    background-color:#D9D9D947;
+    padding: 9px;
+    text-decoration: none;
+    color: white;  
+    border-radius: 10px; 
+    border-color:#f1f1f100;
+    font-family: inter;
+}
+#but-menu {
+    display: none;
+}
+.div-form{
+
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    
+}
+form {
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    color: white;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 3rem;
+    border-radius: 10px; 
+}
+form h{
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+.div-form input{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: white;
+    font-family: inter;
+}
+.form-nome, .form-email, .form-senha {
+    margin-bottom: 1px;
+    padding: 2px;
+}
+.form-cad {
+    margin-bottom: 1px;
+    padding: 1px;
+    font-size: 15px;
+  
+}
+.form-log {
+    
+color: #df5f3f;
+text-decoration: none;
+  
+}
+.form-botao input {
+    margin-top: 5%;
+    border: none;
+    background-color: #df5f3f;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: inter;
+    color: white;
+    src: url(../fonte/Inter-Regular.otf);
+}
+@media (max-width: 600px) {
+#but-menu {
+    display: block;
+}
+}

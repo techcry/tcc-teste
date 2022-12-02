@@ -1,0 +1,33 @@
+html{   
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(89.5deg, firebrick 0.96%, #221513 88.53%);
+}
+.rede{
+    background-color: #221513;
+    color: white;
+    margin-left: 3%;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 3%;
+    flex-direction: column;
+    border-radius: 4px;
+    height: 12%;
+    margin-top: 5%;
+}
+@font-face {
+    font-family: inter;
+    color: white;
+    src: url(../fonte/Inter-V.ttf);
+}
+@media (max-width: 600px) {
+ #but-menu {
+     display: block;
+ }
+}

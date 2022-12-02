@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script >
+        $(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 20) {
+    $('#list-menu')
+      .css({
+        
+        'position': 'fixed',
+        'display': 'none',
+      });
+  } else {
+    $('#list-menu')
+      .css({
+        'display': 'flex',
+        'position': 'inherit'
+      });
+  }}); 
+  $(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 20) {
+    $('#menubtn')
+      .css({
+        
+        'position': 'inherit',
+        'display': 'flex',
+      });
+  } else {
+    $('#menubtn')
+      .css({
+        'display': 'none',
+        'position': 'fixed'
+      });
+    $( "#menubtn" ).prop( "checked", false );
+  }});
+  $(document).ready(function() {
+        $('input[type="checkbox"]').click(function(){
+            if($(this).prop("checked") == true){
+                $('#list-menu')
+                    .css({
+                        'padding-right': '1%',
+                        'position': 'inherit',
+                        'display': 'flex',
+                    });
+            }
+            else if($(this).prop("checked") == false){
+                $('#list-menu')
+                    .css({
+        
+                        'position': 'fixed',
+                        'display': 'none',
+      });
+            }
+        });
+    });
+    
+    </script>
+
+    <nav id="menu">
+        <button id="but-menu">Menu</button>
+        <a href="#"></a>
+        <ul id="list-menu">
+            <li><a href="galeria.html">GALERIA</a></li>
+            <li><a href="redescontato.html">REDES E CONTATO</a></li> 
+            <li><a href="inicio.html">INICIO</a></li>
+            <li><a href="registro.php" class="botao">REGISTRAR</a></li>
+            <li><a href="login.php" class="botao">LOGIN</a></li>
+      
+        </ul>  
+    </nav>
+
+        <div id="icon">
+            <img align="left"src="../img/icon.png" alt="">
+        </div>
+
+            
+        <div id="texto2">
+          
+            
+
+        </div>
+        <div class="container">
+            <div class="image-container">
+        
+        </div>
+    </div>
+        <div id="texto">
+        <p>Aberta desde 21 de outubro de 2017 a AnLui, localizada na Avenida Alexandrina Malisano de Lima, 895 no Jardim Herculano, criada e administrada pelo empresário Antonio Luiz da Silva Coutinho começou pequena, e vem conquistando cada vez mais novos clientes e mais confiança, oferecendo serviços de usinagem, tornearia e solda, Antonio se dedica ao máximo em cada um de seus trabalhos, para sempre garantir a qualidade e durabilidade de seus produtos.
+                Fazendo desde as peças mais pequenas até as mais trabalhadas e em mais quantidade Antonio se orgulha do seu trabalho, sempre se esforçando e fornecendo o melhor para os que optam pelo seu trabalho.
+            </p>
+        </div>
+       
+</body>
+        
+<div class="footer">
+
+    <div class="footerelements">
+    <div class="footerdir">
+        
+        Todos os direitos reservados a empresa AnLui Usinagem®
+
+    </div>
+    <div class="footerctt">
+
+        Contato:<br>Whatsapp: (11) 99928-2384<br>Telefone: +55 11 99928-2384
+
+    </div>
+    <div class="ouvidoria">
+
+        Ouvidoria: anlui_usinagem@hotmail.com
+
+    </div>
+    </div>
+</div>
+</html>

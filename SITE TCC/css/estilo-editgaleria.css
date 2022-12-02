@@ -1,0 +1,63 @@
+html{   
+    text-decoration: none;
+    font-family: Inter;
+    background-color:#221513;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.gal{
+    padding-left: 12px;
+    background-color: rgb(49, 46, 46);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    height: 20%;
+    width: 90%;
+    margin-top: 5%;
+    font-size: 1.1rem;
+}
+.gals {
+    width: 100%;
+    height: 100%;
+    
+}
+ #myFile{
+   display: none;
+   
+ 
+}
+.label-file{
+    color: rgb(7, 7, 7);
+    background-color: firebrick;
+    padding: 4px;
+    width: 70%;
+    border-radius: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.label-file:hover{
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.185);
+    transition: 1s;
+    color: azure;
+}
+@font-face {
+    font-family: inter;
+    color: white;
+    src: url(../fonte/Inter-V.ttf);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #221513;
+}
+::-webkit-scrollbar-thumb{
+    background-color: firebrick;
+}

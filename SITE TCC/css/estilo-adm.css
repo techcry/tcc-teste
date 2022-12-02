@@ -1,0 +1,88 @@
+html{   
+    text-decoration: none;
+    font-family: Inter;
+    background-color: #221513;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #221513;
+}
+.bemvindo{
+    background-color: firebrick;
+   margin-top: 12px;
+    position: absolute;
+    width: 10%;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: 1.3rem;
+    padding: 2px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.administrador{
+    position: absolute;
+    width: 100%;
+    height: 90.745%;
+    margin-top: 4.83%;
+}
+.menu button{
+    border: none;
+    position: absolute;
+    background-color: firebrick;
+    color: rgb(247, 247, 247);
+    width: 20%;
+    height: 6%;
+    font-size: 1.3rem;
+    margin-top: 2%;
+    margin-left: 21%;
+}
+.menu button:hover{
+    background-color: #414c79;
+    transition: all 1s;
+}
+.menu button:not(:hover){
+    transition: all 1s;
+}
+#gal{
+    background-color: rgb(25, 29, 29);
+}
+#ctt{
+    margin-left:40.8%;
+    
+}
+#x{
+    border: none;
+    position: absolute;
+    height: 90%;
+    width: 78.7%;
+    margin-left: 21.25%;
+    margin-top: 5%;
+}
+#y{
+    border: none;
+    position: absolute;
+    margin-top: 5%;
+    height: 90%;
+    width: 21.1%;
+}
+@font-face {
+    font-family: inter;
+    color: white;
+    src: url(../fonte/Inter-V.ttf);
+}
+@media (max-width: 600px) {
+ #but-menu {
+     display: block;
+ }
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #221513;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #221513;
+}

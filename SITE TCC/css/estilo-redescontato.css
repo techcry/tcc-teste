@@ -1,0 +1,205 @@
+html{   
+    text-decoration: none;
+    background-image: linear-gradient(89.5deg, firebrick 0.96%, #221513 88.53%);
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(89.5deg, firebrick 0.96%, #221513 88.53%);
+}
+#menu{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: inter;
+    height: 8vh;
+    position: fixed;
+    width: 90%;
+    z-index: 1;
+}
+#menubtn{
+    border-radius: 5px;
+    padding-left: 0.3%;
+    text-align: center;
+}
+#list-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+#list-menu li{
+    letter-spacing: 1px;
+    margin-left: 32px;
+}   
+#list-menu li a{
+    text-decoration: none;
+    color: white; 
+}
+.botao{
+    background-color:#D9D9D947;
+    padding: 9px;
+    text-decoration: none;
+    color: white;  
+    border-radius: 10px; 
+    border-color:#f1f1f100;
+    font-family: inter;
+}
+#but-menu {
+    display: none;
+}
+.container {
+    margin-top: 33rem;
+    padding: 25px 10%;
+    text-align: center;
+}
+    
+.container .heading {
+    font-size: 30px;
+    padding-bottom: 25px;
+    color: #fff;
+}
+    
+.container .image-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: scale(0.7) translateY(-10px);
+        opacity: 0;
+    }
+}
+.container .image-container .image {
+    background-color: rgba(253, 252, 252, 0.527);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
+    width: 350px;
+    border-radius: 5px;
+    animation: fadeIn 0.2s linear;
+    cursor: pointer;
+    
+ }
+    
+.container .image-container .image img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+    
+.container .image-container .image:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+       
+}
+    
+.container .image-container .image h3 {
+    font-size: 20px;
+    color: #000000;
+}
+.local iframe {
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 10%;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+.local h1{
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: 8%;
+    font-size: 1.7rem;
+    color: white;
+    background-color:  rgba(10, 10, 10, 0.178);
+    padding-left: 2%;
+    padding-right: 73%;
+    
+}
+.h1contato{
+    margin-top: 34rem;
+    position: absolute;
+    margin-left: 8%;
+    font-size: 1.7rem;
+    color: white;
+    background-color:  rgba(10, 10, 10, 0.178);
+    padding-left: 2%;
+    padding-right: 75%;
+}  
+.footer{ 
+    color: white;
+    background-color: #14131381;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footerelements{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: 0 50px 20px rgba(0, 0, 0, 0.1);
+}
+.footerctt{
+    width: 12%;
+    font-family: inter;
+    padding-left: 17%;
+}
+.footerdir{
+    width: 24%;
+    font-family: inter;
+    padding-left: 5%;
+}
+.ouvidoria{
+    font-family: inter;
+    padding-left: 20%;
+}
+@media (max-width: 768px) {
+    
+    .container .image-container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 25px 20px;
+    }
+    
+    .container .image-container .image {
+        width: 100%;
+    }
+}
+    
+@media (max-width: 450px) {
+    .container .image-container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 25px 20px;
+    }
+    .container .image-container .image {
+            width: 100%;
+    }
+    }
+    
+@font-face {
+    font-family: inter;
+    color: white;
+    src: url(../fonte/Inter-Regular.otf);
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #221513;
+}
+::-webkit-scrollbar-thumb{
+    background-color: firebrick;
+}
+
