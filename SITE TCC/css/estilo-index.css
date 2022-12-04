@@ -1,5 +1,57 @@
 html {   
     text-decoration: none;
     background-image: linear-gradient(89.5deg, firebrick 0.96%, #221513 88.53%);
-    
+}
+
+.ind{
+    background-color: #221513ad;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 10px;
+    padding: 3%;
+}
+.log{
+    margin-right: 34%;
+}
+.ind a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.ind:hover{
+    background-color: #221513c7;
+    transition: .3s;
+}
+.ind:not(:hover){
+    transition: .3s;
+}
+.indall{
+    margin-left: 39%;
+    margin-right: 39%;
+    margin-top: 3%;
+}
+p{
+    background-color: #22151338;
+    font-family: inter;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(167, 167, 167);
+    padding: 1%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15%;
+}
+@font-face {
+    font-family: inter;
+    color: white;
+    src: url(../fonte/Inter-V.ttf);
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #221513;
+}
+::-webkit-scrollbar-thumb{
+    background-color: firebrick;
 }

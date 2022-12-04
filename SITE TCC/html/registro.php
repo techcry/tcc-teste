@@ -22,7 +22,7 @@
                             unset($_SESSION['msgcad']);
                         }
                     ?>
-                    <form action="valida.php" method="post">	<h>CADASTRO</h>
+        <form action="../php/valida.php" method="post">	<h>CADASTRO</h>
       
         <div class="form-nome">
                 <p><label for="name">Nome:</label></p>
@@ -31,9 +31,9 @@
 
         <div class="form-email">
                 <p><label for="email">Email:</label></p>
-                <input type="email"  name="usuario" placeholder="Digite seu Email:" size="30" required />
+                <input type="email"  name="usuario" placeholder="Digite seu Email:" size="30" required/>
                 <p><label for="email2">Repita o Email:</label></p>
-                <input type="email" name="senha" placeholder="Repita seu email:" size="30" required/>
+                <input type="email" name="usuario" placeholder="Repita seu email:" size="30" required/>
             </div>
 
         <div class="form-senha">           

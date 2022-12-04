@@ -23,7 +23,7 @@
     <iframe id="x" name="principal" seamless src="galeria.html"></iframe>
 
     <div class="opcoes">
-        <iframe id="y" name="mudanca" seamless src="editgaleria.html"></iframe>
+        <iframe id="y" name="mudanca" seamless src="editgaleria.php"></iframe>
     </div>
 
    

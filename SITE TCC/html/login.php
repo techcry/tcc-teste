@@ -22,7 +22,7 @@
                             unset($_SESSION['msgcad']);
                         }
                     ?>
-    <form action="valida.php" method="post">	
+    <form action="../php/valida.php" method="post">	
             <h>LOGIN</h>
 
         <div class="form-email">

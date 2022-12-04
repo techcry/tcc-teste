@@ -1,12 +1,14 @@
 <?php
-$servername = "localhost";
-$database = "anluiprojects";
-$username = "username";
-$password = "password";
-$conn = mysqli_connect($servername, $username, $password, $database);
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-echo "Connected successfully";
-mysqli_close($conn);
+
+$host = "anluiusinagem.mysql.dbaas.com.br";
+$user = "anluiusinagem";
+$pass = "Alsc@@1967";
+$banc = "anluiusinagem";
+
+    $conexao = mysqli_connect($host, $user, $pass, $banc) OR die ("Erro ao conectar");
+
+    if ($conexao->connect_errno){
+    echo "falha ao conectar (" . $conexao->connect_errno . ")" . $conexao->connect_errno;
+    }
+
 ?>
